@@ -11,7 +11,7 @@ $(document).ready(function() {
     let clickCount = 0
     function updateCounter() {
         clickCount += 1;
-        $('#count').text(`${clickCount} clicks on the button`);
+        $('#count').html(`${clickCount} clicks on the button`);
     }
     $('button').on('click', _.debounce(updateCounter, 300));
 
