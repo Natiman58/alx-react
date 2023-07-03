@@ -8,6 +8,9 @@ test('getFullYear', () => {
 
 test('getFooterCopy', () => {
     expect(getFooterCopy("True")).toEqual("Holberton School");
+});
+
+test('getFooterCopy', () => {
     expect(getFooterCopy("False")).toEqual("Holberton School main dashboard");
 });
 

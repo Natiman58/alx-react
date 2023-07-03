@@ -1,7 +1,7 @@
 import './Notifications.css';
 import {getLatestNotification} from './utils'
 
-export function Notifications() {
+function Notifications() {
     const handleClick = () => {
         console.log('Close button has been clicked');
     }
@@ -18,3 +18,4 @@ export function Notifications() {
     )
 }
 
+export default Notifications
