@@ -1,0 +1,22 @@
+.Holberton-logo {
+    width: 200px;
+    height: auto;
+  }
+
+h1 {
+    display: inline;
+    color: red;
+    position: absolute;
+    top: 30%;
+    left: 218px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.App {
+    position: relative;
+}
+  
+.App-header {
+    border-bottom: 3px solid red;
+    position: relative;
+}
